@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>GJ Desarrolo Web</title>
+
+</head>
+<body>
+
+    <!--SECCION INICIO-->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+              <div class="contenido-header">              
+                <a href="#inicio"class="logo">
+                <img src="img/logo.jpg" alt="logo">   
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>                   
+                            <li><a href="#habilidades">HABILIDADES</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--ICONOS DEL MENU RESPONSIVE-->
+                   
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>                   
+                    </div>
+
+                    <!--ICONOS DE LAS REDES SOCIALES-->
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/gaston-ezequiel-858439248" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/gastonchino" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:quieropedir@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">               
+                <h2>Soy <span>Gastón Jeandet</span>, Desarrollador Frontend.</h2>
+                <p class="descripcion">Soy un apasionado de la tecnología, me capacité  como desarrollador web, realicé varios cursos online enfocados al desarrollo web: html, css, Javascript, React-Js y Firebase</p>
+                <a href="#portfolio">Ir a Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MI-->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <!--<p class="titulo-seccion">Sobre Mi</p>-->
+            <h2>Hola!</h2>            
+            <p>Siempre me gustó mucho el mundo informático, pero cuando descubrí la programación nu dude en empezar a estudiar.</p>
+            <p>Me dí cuenta que quería desarrollarme profesionalmente, me encantan los desafíos  y seguir aprendiendo</p>
+            <p>realicé varios cursos online enfocados al desarrolo Frontend: html, css, js, react, y firebase.</p>
+            <p>hice varias prácticas como esta página y otras dos que que las podes ver en mi portfolio</p>
+            <a href="img/cv.pdf" download="cv" class="cv">Descargar CV</a>
+        </div>
+    </section>
+
+    <!--HABILIDADES-->
+
+ <section id="habilidades">     
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"> Html/Css</span></p>
+            <span class="porcentaje">85%</span>
+        </div>
+        <div class="barra">
+            <div id="html" class="barra-progreso1"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista">Javascript</span></p>
+            <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+            <div id="js" class="barra-progreso2"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista">React-Js</span></p>
+            <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+            <div id="react" class="barra-progreso3"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista">Firebase</span></p>
+            <span class="porcentaje">75%</span>
+        </div>
+        <div class="barra">
+            <div id="firebase" class="barra-progreso4"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista">Git Hub</span></p>
+            <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="git" class="barra-progreso5"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista">Scrum</span></p>
+            <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="metodologias" class="barra-progreso6"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--SECCION PORTFOLIO-->
+
+<section id="portfolio">
+   <div><h3 class="titulo-seccion">MIS PROYECTOS</h3></div>
+    <div class="fila">
+        <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="img/proyecto1.jpg" alt="">
+        <div class="info">
+            <p>proyecto realizado con react</p>
+            <a href="https://gastonchino.github.io/RickyMorty/" target="_blank" >ver más -></a>
+            
+        </div>
+    </div>
+    <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="img/proyecto2.jpg" alt="">
+        <div class="info">
+            <p>proyecto realizado con react</p>
+            <a href="https://gastonchino.github.io/preciocrypto/" target="_blank">ver más -></a>
+        </div>
+</section>
+
+ <!--SECCION CONTACTO-->
+
+ <!--
+            <input type="hidden" name="_next" value="https://gastonchino.github.io/portfolio.github.io/">
+           
+-->
+ <section id="contacto"> 
+
+     <form action="https://formsubmit.co/quieropedir@gmail.com" method="POST"> 
+        <div class="form__container">
+           
+        <h2 class="form__title">CONTÁCTAME</h2>
+        
+        <input type="text" name="name" class="form__input" placeholder="Nombre:">
+        <input type="email" class="form__input" placeholder="Email:">
+        <textarea class="form__input form__input--message" placeholder="Mensaje:"></textarea>
+        <input type="submit"  value="Enviar" class="form__cta">
+        <input type="hidden" name="_captcha" value="false"> 
+        <input type="hidden" name="_next" value="https://gastonchino.github.io/portfolio/">
+    </div>
+</form>
+</section>
+
+
+
+
+<!--FOOTER-->
+
+ <footer>
+    <p>Todos los derechos reservados - 2022 Gastón Jeandet</p>  
+    
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/gaston-ezequiel-858439248" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://gastonchino.github.io/portfolio/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:quieropedir@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+    </div>
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>
