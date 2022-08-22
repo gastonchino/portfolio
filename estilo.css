@@ -211,7 +211,7 @@ html{
     max-width: 600px;
     margin: 15px auto;
     padding: 17px;
-
+    font-weight: bold;
 
 }
 .contenedor-skills .skill .info {
@@ -383,6 +383,9 @@ html{
     bottom: -40%;
     transition: .5s; 
     text-align: center;   
+}
+#portfolio .proyecto .ver{
+    color: #fff;
 }
 #portfolio .fila .proyecto:hover .info {
     opacity: 1;
