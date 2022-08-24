@@ -403,6 +403,7 @@ html{
     justify-content: center;
     margin: 140px;
     padding: 10px;
+    border-radius: 30px;   
    }
 
    .form {
@@ -580,4 +581,5 @@ html{
       }
       #contacto {
         margin: 30px;
+        border-radius: 20px;  
       }
