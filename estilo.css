@@ -401,7 +401,7 @@ html{
     flex-basis: 100%;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 140px;
     padding: 10px;
    }
 
@@ -574,54 +574,10 @@ html{
         width: auto;
         display: block;
     }
-        /*display: block;
-        justify-content: center;
-        margin: 0 40px;
-    
-    }*/
-  
-   
+         
       .form {    
         width: auto;
       }
-      /*flex-direction: column;
-      display: block;
-      float: none;
-        }*/
-    
-}
-    /*#contenedor-form {
-
-        max-width: 600px;
-        display: block;
-
-    }
-
-
-
-    #contacto .contenedor-form .mitad {
-        width:   208%;
-        display: block;
-       
-        
-        
-    }
-    #contacto .contenedor-form input, #contacto .contenedor-form textarea {
-        justify-content: center;
-        margin: 0px 10 ;
-        line-height: 1.5em;
-    }
-
-    #contacto .titulo-seccion {
-        
-        margin-top: -83;
-        
-    }
-
-    #btn-enviar {
-        justify-content: center;
-    
-    }*/
-    
-    
-
+      #contacto {
+        margin: auto;
+      }
