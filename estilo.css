@@ -368,7 +368,7 @@ html{
     filter: grayscale(1);
     object-fit: cover;
     transition: .5s;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 #portfolio .fila .proyecto:hover img {
     filter: grayscale(0);
